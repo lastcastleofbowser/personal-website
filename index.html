@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script src="index.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Christian Willcox</title>
+    </head>
+    <header>
+        <ul class="navbar">
+            <li class="navbar-links">
+                <a href="#about">about</a>
+            </li>
+            <li class="navbar-links">
+                <div class="btn-group navbar-links">
+                    <button type="button" class="btn btn-danger">
+                        <a href="#projects">projects</a>
+                    </button>
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/projects/kindr.html">Kindr</a>
+                        <a class="dropdown-item" href="/projects/weather.html">Weather</a>
+                        <a class="dropdown-item" href="/projects/codelingo.html">CodeLingo</a>
+                        <a class="dropdown-item" href="/projects/ecommerce.html">E-commerce</a>
+                    </div>
+                </div>
+            </li>
+            <li class="navbar-links">
+                <a href="#skills">skills</a>
+            </li>
+            <li class="navbar-links">
+                <a href="#contact">contact</a>
+            </li>
+        </ul>
+    </header>
+    
+    <body>
+
+        <div id="greet">
+
+            <!-- Greeting section. -->
+            <h1 class="landing-h1">Hi, I'm Christian</h1>
+            <h3 class="landing-h3">Junior Software Developer</h3>
+            <!-- <p>Based in Hitchin, Hertfordshire</p> -->
+
+            <div class="landing-img-container">
+                <img src="/images/LandingPicTransparent.png" alt="Landing-page-pic " class="landing-page-img">
+            </div>
+
+            <!-- Down arrow. -->
+            <div class="down-arrow"></div>
+            
+        </div>
+
+        <div id="about">
+            
+            <img alt="Me on the Jurassic Coast" class="jurassic-img"src="/images/jurassic-coast.jpeg">
+            
+            <h1>About</h1>
+            <p class="about-text first-para">
+                Hi, I'm Christian a former primary school teacher with 9 years of experience.
+                I taught for 7 years in the UK and for 2 years abroad - on the island of Borneo! 🦧🐒
+            </p>
+            <p class="about-text">
+                I love learning and helping others and I want to use my skills and experience to bring some good into the world!
+            </p>
+            <p class="about-text">
+                I graduated from the School of Code Summer 2023.
+            </p>
+
+        </div>
+
+        <div id="projects">
+
+            <h1>Projects</h1>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="/projects/kindr.html">
+                        <img src="/images/project-img/homepage.png" class="d-block w-100" alt="Kindr Project">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="/projects/weather.html">
+                        <img src="/images/project-img/weather-app.png" class="d-block w-100" alt="Weather App Project">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="/projects/codelingo.html">
+                        <img src="/images/project-img/codelingo.png" class="d-block w-100" alt="CodeLingo Project">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="/projects/ecommerce.html">
+                        <img src="/images/project-img/ecommerce.png" class="d-block w-100" alt="E-Commerce Project">
+                    </a>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+        </div>
+
+        <div id="skills">
+            <h1>Skills</h1>
+
+            <div class="skills-container">
+
+				<div class="all-skills-images">
+					<img src="/images/skills/javascript.png" alt="javascript-logo" class="skills-img">
+					<img src="/images/skills/typescript.png" alt="typescript-logo" class="skills-img">
+					<img src="/images/skills/c.png" alt="c-logo" class="skills-img">
+					<img src="/images/skills/html.png" alt="html-logo" class="skills-img">
+					<img src="/images/skills/css.svg.png" alt="css-logo" class="skills-img">
+					<img src="/images/skills/github.png" alt="github-logo" class="skills-img">
+					<img src="/images/skills/git.png" alt="git-logo" class="skills-img">
+					<img src="/images/skills/vsstudio.svg.png" alt="vsstudio-logo" class="skills-img">
+					<img src="/images/skills/react.svg.png" alt="react-logo" class="react-img">
+					<img src="/images/skills/slack.svg.png" alt="slack-logo" class="skills-img">
+					<img src="/images/skills/figma.png" alt="figma-logo" class="skills-img figma-img">
+					<img src="/images/skills/supabase.png" alt="supabase-logo" class="skills-img">
+					<img src="/images/skills/Postgresql.svg.png" alt="postgres-logo" class="skills-img">
+					<img src="/images/skills/nodejs.png" alt="nodejs-logo" class="skills-img">
+					<img src="/images/skills/jest.png" alt="jest-logo" class="skills-img">
+					<img src="/images/skills/playwright.png" alt="playwright-logo" class="skills-img">
+				</div>
+
+			</div>
+        </div>
+
+        <div id="contact">
+            <h1>Contact</h1>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href = "https://github.com/lastcastleofbowser">
+                                <img src="/images/icons/github_black.png" alt="github icon" class="icon github btn">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href = "https://www.linkedin.com/in/christianwillcox/">
+                                <img src="/images/icons/linkedin_black.png" alt="linkedin icon" class="icon linkedin btn">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a class="email btn" href="mailto:christian.d.willcox@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <p>christian.d.willcox@gmail.com</p>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </body>
+    <footer>
+        <p>© 2023 Christian Willcox </p>
+    </footer>
+</html>
