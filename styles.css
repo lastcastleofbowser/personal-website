@@ -57,8 +57,6 @@ p {
 }
 
 
-
-
 /* Greet Section */
 #greet {
 	display: flex;
@@ -101,19 +99,29 @@ p {
 	/* font-size: 5rem; */
   }
 
+  /* Landing Image */
+
   .landing-img-container{
 	position: relative;
 	display: flex;
 	flex-basis: 50%;
 	
+	clip-path: circle(40% at 50% 50%);
+	width: 350px;
   }
 
   .landing-page-img{
 	/* margin: 2rem; */
-	clip-path: circle(40% at 50% 50%);
-	object-fit: none;
-	object-position: -90px 38px;
+	/* clip-path: circle(40% at 50% 50%); */
+	object-fit: contain;
+	/* object-position: 0px 38px; */
 	width: 350px;
+  }
+
+  @media (min-width: 768px) {
+	.landing-img-container{
+	clip-path: none;
+	}
   }
 
 /* Down Arrow */
@@ -158,6 +166,15 @@ p {
 max-width: 100%;
 height: auto;
 margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+	.jurassic-img {
+		max-width: 50%;
+		height: auto;
+		margin: 0 auto;
+	}
+	
 }
 
 #about{
