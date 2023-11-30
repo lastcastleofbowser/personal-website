@@ -104,9 +104,9 @@ p {
   .landing-img-container{
 	position: relative;
 	display: flex;
-	flex-basis: 50%;
+	/* flex-basis: 50%; */
 	
-	clip-path: circle(40% at 50% 50%);
+	/* clip-path: circle(40% at 50% 50%); */
 	width: 350px;
   }
 
@@ -194,7 +194,7 @@ margin: 0 auto;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	margin: 0 15px;
+	margin: 0 5px;
 }
 .skills-img{ width: 100px; height: 100px; margin: 15px; }
 /* .figma-img{ width: 80px; } */
@@ -204,7 +204,7 @@ margin: 0 auto;
 	-webkit-border-radius: 16px;
 	-moz-border-radius: 16px;
 	border: 1px solid #000000;
-	padding: 30px;
+	padding: 15px;
 	margin-top: 30px;
 }
 
