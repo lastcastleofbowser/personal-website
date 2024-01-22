@@ -273,6 +273,10 @@ footer p{
 	border: 0.3px solid #333;
 }
 
+.figure-caption {
+	background-color: var(--grey2)
+}
+
 .project-card ul{
 	list-style-type: square;
 	list-style-position: inside;
