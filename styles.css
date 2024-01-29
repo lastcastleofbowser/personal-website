@@ -308,6 +308,12 @@ hr {
 
 .work-text{ padding-left: 1rem; }
 .work-text h3{ padding-left: 0; }
+.work-text p { 
+	font-size: 1.4rem;
+	margin: 3px 0 5px 0;
+	padding: 5px;
+}
+/* .work-text h5{ text-align: left; } */
 
 .project-btn{
 	color: var(--grey1);
